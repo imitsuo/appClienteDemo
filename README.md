@@ -1,11 +1,11 @@
 # appClienteDemo
 .Net Core 2.0 Angular2
 
-# Rodar aplicacao maquina local
+## Rodar aplicacao maquina local
  Npm install
  dotnet restore
 
-  Configurar database 
+###  Configurar database 
    Arquivos:
      appsettings.Development.json 
      appsettings.json
