@@ -16,7 +16,7 @@ Baixar o codigo
 
 ### Configurar database 
 
-Banco de Dados SqlServer criar DataBase e atualizar ConnectionString
+Banco de Dados SqlServer, criar DataBase e atualizar ConnectionString
 
 Arquivos: 
 
