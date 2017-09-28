@@ -5,17 +5,17 @@
  Npm install
  dotnet restore
 
-###  Configurar database 
+### Configurar database 
    Arquivos:
      appsettings.Development.json 
      appsettings.json
      *Criar DataBase e atualizar ConnectionString
 
-   Rodar Migration:
-   dotnet ef database update
+### Rodar Migration
+  dotnet ef database update
 
 
-   Modo Debug
+### Modo Debug
    Windows
    set ASPNETCORE_ENVIRONMENT=Development
    Linux
