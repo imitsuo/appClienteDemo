@@ -1,0 +1,10 @@
+/home/marcelo/projetos/clientprj/bin/Debug/netcoreapp2.0/clientprj.deps.json
+/home/marcelo/projetos/clientprj/bin/Debug/netcoreapp2.0/clientprj.runtimeconfig.json
+/home/marcelo/projetos/clientprj/bin/Debug/netcoreapp2.0/clientprj.runtimeconfig.dev.json
+/home/marcelo/projetos/clientprj/bin/Debug/netcoreapp2.0/clientprj.dll
+/home/marcelo/projetos/clientprj/bin/Debug/netcoreapp2.0/clientprj.pdb
+/home/marcelo/projetos/clientprj/obj/Debug/netcoreapp2.0/clientprj.csproj.CoreCompileInputs.cache
+/home/marcelo/projetos/clientprj/obj/Debug/netcoreapp2.0/clientprj.AssemblyInfoInputs.cache
+/home/marcelo/projetos/clientprj/obj/Debug/netcoreapp2.0/clientprj.AssemblyInfo.cs
+/home/marcelo/projetos/clientprj/obj/Debug/netcoreapp2.0/clientprj.dll
+/home/marcelo/projetos/clientprj/obj/Debug/netcoreapp2.0/clientprj.pdb

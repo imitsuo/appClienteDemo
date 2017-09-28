@@ -1,0 +1,41 @@
+
+<h2>{{title}}</h2>
+<form materialize [formGroup]="form" (ngSubmit)="save()">
+    <div class="form-group" >           
+    <label for="name">Name</label>  
+    <input id="name" type="text" class="form-control"
+        [(ngModel)]="_client.name" formControlName="name">
+                            
+    <div *ngIf="form.controls['name'].invalid && (form.controls['name'].dirty || form.controls['name'].touched)"
+        class="alert alert-danger">
+        Nome é obrigatório e deve conter 3 caracteres.
+
+    </div>
+
+    <label for="documento">Documento (Cpf ou Cnpj)</label>  
+    <input id="documento" type="text" class="form-control"
+        [(ngModel)]="_client.documento" formControlName="documento">
+         
+    <div *ngIf="form.controls['documento'].invalid && (form.controls['documento'].dirty || form.controls['documento'].touched)"
+        class="alert alert-danger">
+        Documento é obrigatório e deve conter um cpf ou cnpj válido.
+    </div>    
+
+   
+    <label for="telefone">Telefone</label>  
+    <input id="telefone" type="text" class="form-control"
+        [(ngModel)]="_client.telefone" formControlName="telefone">
+
+        <div *ngIf="form.controls['telefone'].invalid && (form.controls['telefone'].dirty || form.controls['telefone'].touched)"
+        class="alert alert-danger">
+        Telefone é obrigatório e deve estar no formato XX-XXXX-XXXX ou XX-XXXXX-XXXX.
+    </div> 
+
+        
+    </div>
+
+
+    <button type="submit" [disabled]="form.invalid" class="btn btn-success">Submit</button>
+
+   <p></p>
+</form>

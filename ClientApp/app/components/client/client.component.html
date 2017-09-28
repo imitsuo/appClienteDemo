@@ -1,0 +1,36 @@
+<h1>Clientes</h1>
+
+<table class='table table-hover'>
+<thead>
+    <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Documento</th>
+        <th>Telefone</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let cli of clients">
+        <td>{{cli.id}}</td>
+        <td>{{cli.name}}</td>
+        <td>{{cli.documento}}</td>
+        <td>{{cli.telefone}}</td>
+        <td>
+            <a [routerLink]="['/client', cli.id]">
+                <i class="material-icons">edit</i>
+            </a>
+        </td>
+        <td>
+            <a href="#" onclick='return false;'>
+                <i class="material-icons" (click)="delete(cli)">delete</i>
+            </a>
+        </td>
+    </tr>
+</tbody>
+</table> 
+
+<div class='col-sm-9'>
+    <client-detail col-sm-9></client-detail>
+</div>
