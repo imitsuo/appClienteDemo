@@ -1,7 +1,7 @@
 # appClienteDemo
 .Net Core 2.0 Angular2
 
-#Rodar aplicacao maquina local
+# Rodar aplicacao maquina local
  Npm install
  dotnet restore
 
