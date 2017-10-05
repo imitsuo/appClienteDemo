@@ -38,6 +38,6 @@ Linux
 
 >export ASPNETCORE_ENVIRONMENT=Development
  
- ### Execlutar
+ ### Executar
  
  >dotnet run
